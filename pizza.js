@@ -18,3 +18,12 @@ if (numberOfToppings<10) {
 } else {
 console.log('A whole lot of pizza.');
 }
+
+//#11 BONUS
+
+for (let i = 1; i <= numberOfToppings; i++){
+  // if (i % 2 === 0) {
+  //   console.log(i + " is EVEN.");
+  // }
+  console.log(i)
+}
